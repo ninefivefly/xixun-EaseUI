@@ -19,5 +19,5 @@ Pod::Spec.new do |spec|
   spec.xcconfig     = {'OTHER_LDFLAGS' => '-ObjC'}
   spec.dependency 'MWPhotoBrowser' 
   spec.dependency 'MJRefresh'
-  spec.dependency 'Hyphenate'
+  spec.dependency 'Hyphenate', '~> 3.5.3'
 end
